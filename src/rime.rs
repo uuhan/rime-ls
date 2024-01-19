@@ -1,5 +1,5 @@
 use crate::consts::{APP_NAME, KEY_BACKSPACE, KEY_ESCAPE, RAW_RE};
-use librime_sys as librime;
+use librime_api::api as librime;
 use once_cell::sync::OnceCell;
 use std::ffi::{c_char, CStr, CString, NulError};
 use std::sync::Mutex;
