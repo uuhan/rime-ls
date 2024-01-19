@@ -1,3 +1,9 @@
+# forked
+
+```
+cargo install --git https://github.com/uuhan/rime-ls
+```
+
 # rime-ls
 
 > A language server that provides input method functionality using librime.
