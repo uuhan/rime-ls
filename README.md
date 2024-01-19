@@ -1,3 +1,9 @@
+# forked
+
+```
+cargo install --git https://github.com/uuhan/rime-ls
+```
+
 # rime-ls
 
 为 rime 输入法核心库 librime (的部分功能) 实现 LSP 协议, 从而通过编辑器的代码补全功能输入汉字.
