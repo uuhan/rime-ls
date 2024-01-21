@@ -9,6 +9,7 @@ rust-version = "1.63"
 
 [dependencies.librime-api]
 git = "https://github.com/uuhan/librime-api.git"
+commit = "537e057b2495333a93f0a26941cb415d725e754a"
 
 [dependencies]
 dashmap = "5.5.3"
