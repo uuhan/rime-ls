@@ -9,7 +9,7 @@ rust-version = "1.63"
 
 [dependencies.librime-api]
 git = "https://github.com/uuhan/librime-api.git"
-commit = "537e057b2495333a93f0a26941cb415d725e754a"
+commit = "3d9227653b661cc8e06dbc64593b3ab73a38a66f"
 
 [dependencies]
 dashmap = "5.5.3"
@@ -33,7 +33,8 @@ once_cell = "1.18.0"
 
 [features]
 default = []
-no_log_dir = [] # for librime < 1.6
+prebuilt = ["librime-api/prebuilt"]
+no_log_dir = []                     # for librime < 1.6
 
 [profile.release]
 strip = true
