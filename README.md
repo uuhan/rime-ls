@@ -1,7 +1,11 @@
 # forked
 
 ```
+# linux & macos
 cargo install --git https://github.com/uuhan/rime-ls
+
+# x64-windows
+cargo install --git https://github.com/uuhan/rime-ls --features prebuilt
 ```
 
 # rime-ls
