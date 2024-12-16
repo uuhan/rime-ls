@@ -4,7 +4,7 @@
 # linux & macos
 cargo install --git https://github.com/uuhan/rime-ls
 
-# x64-windows
+# x64-windows, you should copy rime.dll to where the rime-ls binary is.
 cargo install --git https://github.com/uuhan/rime-ls --features prebuilt
 ```
 
