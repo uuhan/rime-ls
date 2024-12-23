@@ -337,6 +337,7 @@ impl LanguageServer for Backend {
                 text,
             } = change;
             if let Some(Range { start, end }) = range {
+                // FIXME: unwrap() panics here
                 let mut rope = self
                     .documents
                     .get_mut(params.text_document.uri.as_str())
