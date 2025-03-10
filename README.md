@@ -2,6 +2,8 @@
 
 ```
 cargo install --git https://github.com/uuhan/rime-ls
+# or on windows with prebuilt library
+cargo install --git https://github.com/uuhan/rime-ls --features librime-api/prebuilt
 ```
 
 # rime-ls
@@ -17,6 +19,7 @@ cargo install --git https://github.com/uuhan/rime-ls
 解决 vim 编辑模式下的输入法冲突和切换问题。
 
 主要使用场景:
+
 - 在 vim 编辑模式下写 markdown, $\LaTeX$ 等文档（更像输入法）
 - 在编程时输入特殊的变量名或者写注释（更像代码补全）
 
@@ -183,8 +186,7 @@ https://user-images.githubusercontent.com/14821247/213079440-f0ab2ddd-5e44-4e41-
 
 ## 个人词库同步
 
-> [!WARNING]
-> **不推荐**与系统中的已有 rime 输入法共用一个用户目录，避免数据库上锁无法使用。
+> [!WARNING] > **不推荐**与系统中的已有 rime 输入法共用一个用户目录，避免数据库上锁无法使用。
 > 使用前备份自己的数据, 避免因作者对 rime API 理解不到位可能造成的数据损失。
 
 可以通过 rime 的 sync 功能将系统中已安装的 rime 输入法的词库同步过来。
